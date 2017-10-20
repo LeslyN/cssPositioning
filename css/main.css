@@ -1,0 +1,219 @@
+/***** Position static - inicial ******/
+/*
+#box_1 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3 { 
+	position: static;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+*/
+
+/****** Example A ******/
+#box_1-A { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-A { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-A { 
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+
+/****** Example B ******/
+
+#box_2-B { 
+	position: relative;
+	left: 200px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+
+}
+
+
+/****** Example C -- Solo se modifica el htmlC ******/
+div {
+	display: block;
+}
+
+
+/****** Example D ******/
+#box_1-D { 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box_2-D { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box_3-D { 
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+#box_4-D { 
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 200px;
+	height: 200px;
+	background: #ebde52;
+}
+
+
+/****** Example E ******/
+#box_1-E { 
+	position: absolute; 
+	top: 0px;
+	right: 0px;
+	bottom: 10px;
+	left: 10px; 
+	background: red; 
+}
+
+#box_2-E { 
+	position: absolute; 
+	top: 20px;
+	right: 20px; 
+	bottom: 20px; 
+	left: 20px; 
+	background: white;
+}
+
+
+/****** Example F ******/
+.orange{
+	background: #1818f6;
+  position: absolute;
+  top: 39%;
+  left: 41%;
+  width: 40px;
+  height: 40px;
+}
+
+#box_1-F { 
+	position: absolute; 
+	top: 10px;
+	right: 10px;
+	bottom: 10px;
+	left: 10px; 
+	background: red; 
+}
+#box_2-F { 
+	position: absolute; 
+	top: 20px;
+	right: 20px; 
+	bottom: 20px; 
+	left: 20px; 
+	background: white;
+}
+
+
+/****** Example G ******/
+
+#box_1-G { 
+	position: absolute;
+	top: 10px;
+	right: 10px; 
+	bottom: 10px;
+	left: 10px;
+	background: #b7d84b;
+}
+
+#box_2-G { 
+	position: absolute; 
+	top: 20px; 
+	right: 20px; 
+	bottom: 20px; 
+	left: 20px; 
+	background: #ee3e64;
+}
+
+/****** Example H ******/
+#box_1-H { 
+	position: absolute;
+	top: 0;
+	right: 20%;
+	bottom: 0;
+	left: 0;
+	background: #ee3e64;
+}
+
+#box_2-H { 
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 80%;
+	background: #44accf;
+}
+
+
+
+/****** Example H2 ******/
+#box_1-H2 { 
+	background: #ee3e64;
+	height: 200px;
+	width: 200px;
+	position: relative;
+}
+
+#box_2-H2 { 
+	position: absolute;
+	left: 100px;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+
+/****** Example H3 ******/
+#box_2-H3{
+	position: fixed; 
+	bottom: 0; 
+	left: 0; 
+	right: 0; 
+}
+
+/****** Example I ******/
+
